@@ -5,7 +5,7 @@ export const Projects = () => {
   return (
     <>
     <Navbar/>
-    <h1 className='mt-15 text-center text-6xl font-extrabold text-red-600'>Projects</h1>
+    <h1 className='mt-20 text-center text-6xl font-extrabold text-red-600'>Projects</h1>
     <div className='mt-10 p-4 text-center flex flex-col md:grid md:grid-cols-3 gap-4'>
       <div className="flex flex-col border-2 border-purple-500 p-3 gap-3 text-white rounded-2xl shadow-xl">
         <div className='flex flex-col gap-3 text-center'>

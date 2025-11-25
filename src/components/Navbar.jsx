@@ -15,9 +15,21 @@ export const Navbar = () => {
 </svg>
 
         <div className='hidden md:flex gap-6 text-xl'>
-          <Link to="/" onClick={()=> setVisible(false)} className='hover:text-blue-300 p-1 transition-colors duration-200'>About</Link>
-          <Link to="/project" onClick={()=> setVisible(false)} className='hover:text-blue-300 p-1 transition-colors duration-200'>Projects</Link>
-          <Link to="/contact" onClick={()=> setVisible(false)} className='hover:text-blue-300 p-1 transition-colors duration-200'>Contact</Link>
+          <Link to="/" onClick={()=> setVisible(false)} className="relative p-1 transition-all duration-200
+             after:content-[''] after:absolute after:left-0 after:bottom-0
+             after:h-[2px] after:w-0 after:bg-blue-300
+             after:transition-all after:duration-300
+             hover:after:w-full">About</Link>
+          <Link to="/project" onClick={()=> setVisible(false)} className="relative p-1 transition-all duration-200
+             after:content-[''] after:absolute after:left-0 after:bottom-0
+             after:h-[2px] after:w-0 after:bg-blue-300
+             after:transition-all after:duration-300
+             hover:after:w-full">Projects</Link>
+          <Link to="/contact" onClick={()=> setVisible(false)} className="relative p-1 transition-all duration-200
+             after:content-[''] after:absolute after:left-0 after:bottom-0
+             after:h-[2px] after:w-0 after:bg-blue-300
+             after:transition-all after:duration-300
+             hover:after:w-full">Contact</Link>
         </div>
 
         {
