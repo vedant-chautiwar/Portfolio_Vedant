@@ -68,8 +68,9 @@ export const About = () => {
       </div>
     </div>
     <div className='mb-10 mt-5 p-4 flex justify-center md:justify-start'>
-      <a href={resume} download="Vedant_Resume.pdf" className='text-white bg-blue-700 p-3 rounded-4xl hover:cursor-pointer hover:bg-linear-to-tr from-blue-600 to to-blue-400'>
+      <a href={resume} download="Vedant_Resume.pdf" className='flex gap-1 justify-center items-center text-white bg-blue-700 p-3 rounded-4xl hover:cursor-pointer hover:bg-linear-to-tr from-blue-600 to to-blue-400'>
         Download Resume
+        <i class="fa-solid fa-download"></i>
       </a>
     </div>
     </>

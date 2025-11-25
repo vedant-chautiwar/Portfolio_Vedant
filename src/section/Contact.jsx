@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <>
     <Navbar/>
-    <div className='mt-13 min-h-screen flex flex-col items-center gap-3'>
+    <div className='mt-20 min-h-screen flex flex-col items-center gap-3'>
       <span className='text-6xl text-red-600 font-bold'>Contact me!!</span>
       <form action="https://formsubmit.co/chautiwarvedant@gmail.com" method="POST" className='mt-10 flex flex-col gap-4'>
 
@@ -17,7 +17,7 @@ export const Contact = () => {
         <input type="text" name='Name' placeholder='Name' className='p-2 border-2 rounded-3xl text-white outline-none w-xs text-center' required/>
         <input type="text" name='Mobile' placeholder='Mobile Number' className='p-2 border-2 rounded-3xl text-white outline-none w-xs text-center' required/>
         <input type="email" name='Email' placeholder='E-mail' className='p-2 border-2 rounded-3xl text-white outline-none w-xs text-center' required/>
-        <textarea name="work" rows="6" cols="20" className='p-2 border-2 rounded-3xl text-white outline-none text-center' placeholder='Enter purpose of contacting' required></textarea>
+        <textarea name="work" rows="6" cols="20" className='p-2 border-2 rounded-3xl text-white outline-none text-center' placeholder='Work' required></textarea>
 
         <button type='submit' className='p-3 rounded-3xl mt-2 bg-blue-500 hover:cursor-pointer hover:bg-linear-to-tr from-blue-600 to to-blue-400 text-white'>Submit</button>
 
