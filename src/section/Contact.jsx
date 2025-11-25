@@ -26,10 +26,10 @@ export const Contact = () => {
         <a href="https://github.com/vedant-chautiwar" target="_blank" className='text-2xl transform hover:scale-150 hover:text-red-500 transition-all duration-500'>
           <i class="fa-brands fa-github"></i>
         </a>
-        <a href="www.linkedin.com/in/vedant-chautiwar-a68689306" target="_blank" className='text-2xl transform hover:scale-150 hover:text-blue-400 transition-all duration-500'>
+        <a href="https://www.linkedin.com/in/vedant-chautiwar-a68689306/" target="_blank" className='text-2xl transform hover:scale-150 hover:text-blue-400 transition-all duration-500'>
           <i class="fa-brands fa-linkedin"></i>
         </a>
-        <a href="" target="_blank" className='text-2xl transform hover:scale-150 hover:text-pink-600 transition-all duration-500'>
+        <a href="https://www.instagram.com/chauti06/" target="_blank" className='text-2xl transform hover:scale-150 hover:text-pink-600 transition-all duration-500'>
           <i class="fa-brands fa-instagram"></i>
         </a>
         <a href="mailto:chautiwarvedant@gmail.com" target="_blank" className='text-2xl transform hover:scale-150 hover:text-white transition-all duration-500'>
