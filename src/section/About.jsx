@@ -41,11 +41,30 @@ export const About = () => {
         Skills
       </h1>
       <div className='flex flex-col md:flex-row md:flex-wrap gap-3 text-center'>
-        <div className='md:w-[200px] p-2 text-white border-2 rounded-4xl hover:bg-linear-to-tr from-red-900 to-red-600 transition-colors duration-300 hover:cursor-pointer'>CSS</div>
-        <div className='md:w-[200px] p-2 text-white border-2 rounded-4xl hover:bg-linear-to-tr from-red-900 to-red-600 transition-colors duration-300 hover:cursor-pointer'>Javascript</div>
-        <div className='md:w-[200px] p-2 text-white border-2 rounded-4xl hover:bg-linear-to-tr from-red-900 to-red-600 transition-colors duration-300 hover:cursor-pointer'>React</div>
-        <div className='md:w-[200px] p-2 text-white border-2 rounded-4xl hover:bg-linear-to-tr from-red-900 to-red-600 transition-colors duration-300 hover:cursor-pointer'>Java</div>
-        <div className='md:w-[200px] p-2 text-white border-2 rounded-4xl hover:bg-linear-to-tr from-red-900 to-red-600 transition-colors duration-300 hover:cursor-pointer'>Python</div>
+        <div className='flex gap-2 justify-center items-center md:w-[200px] p-2 text-white border-2 rounded-4xl hover:bg-linear-to-tr from-red-900 to-red-600 transition-colors duration-300 hover:cursor-pointer'>
+          <i class="fa-brands fa-html5"></i>
+          HTML
+        </div>
+        <div className='flex gap-2 justify-center items-center md:w-[200px] p-2 text-white border-2 rounded-4xl hover:bg-linear-to-tr from-red-900 to-red-600 transition-colors duration-300 hover:cursor-pointer'>
+          <i class="fa-brands fa-css"></i>
+          CSS
+        </div>
+        <div className='flex gap-2 justify-center items-center md:w-[200px] p-2 text-white border-2 rounded-4xl hover:bg-linear-to-tr from-red-900 to-red-600 transition-colors duration-300 hover:cursor-pointer'>
+          <i class="fa-brands fa-js"></i>
+          Javascript
+        </div>
+        <div className='flex gap-2 justify-center items-center md:w-[200px] p-2 text-white border-2 rounded-4xl hover:bg-linear-to-tr from-red-900 to-red-600 transition-colors duration-300 hover:cursor-pointer'>
+          <i class="fa-brands fa-react"></i>
+          React
+        </div>
+        <div className='flex gap-2 justify-center items-center md:w-[200px] p-2 text-white border-2 rounded-4xl hover:bg-linear-to-tr from-red-900 to-red-600 transition-colors duration-300 hover:cursor-pointer'>
+          <i class="fa-brands fa-java"></i>
+          Java
+        </div>
+        <div className='flex gap-2 justify-center items-center md:w-[200px] p-2 text-white border-2 rounded-4xl hover:bg-linear-to-tr from-red-900 to-red-600 transition-colors duration-300 hover:cursor-pointer'>
+          <i class="fa-brands fa-python"></i>
+          Python
+        </div>
       </div>
     </div>
     <div className='mb-10 mt-5 p-4 flex justify-center md:justify-start'>

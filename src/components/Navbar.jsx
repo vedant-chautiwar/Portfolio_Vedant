@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const Navbar = () => {
   const [visible, setVisible] = useState(false)
   return (
-    <nav className='flex justify-between items-center p-4 border-black bg-[#1A1A1A] border-b-2 rounded-b-2xl shadow-xl/30'>
+    <nav className='fixed w-full top-0 flex justify-between items-center p-4 border-black bg-[#1A1A1A] border-b-2 rounded-b-2xl shadow-xl/30'>
 
       <h1 className='bg-clip-text text-transparent bg-linear-to-r from-orange-600 to-yellow-200 font-bold text-3xl'>Chauti06</h1>
 
