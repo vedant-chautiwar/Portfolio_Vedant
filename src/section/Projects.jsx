@@ -28,8 +28,8 @@ export const Projects = () => {
           </p>
         </div>
         <div className="flex justify-between items-center p-2">
-          <a href="https://github.com/vedant-chautiwar/TicTacToe_Vedant" target="_blank" className='border-2 border-white p-2 rounded-4xl'>Github</a>
-          <a href="" target="_blank" className='border-2 border-white p-2 rounded-4xl'>Live Link</a>
+          <a href="https://github.com/vedant-chautiwar/TicTacToe" target="_blank" className='border-2 border-white p-2 rounded-4xl'>Github</a>
+          <a href="https://tic-tac-toe-nine-umber-79.vercel.app/" target="_blank" className='border-2 border-white p-2 rounded-4xl'>Live Link</a>
         </div>
       </div>
 
