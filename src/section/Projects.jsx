@@ -48,7 +48,7 @@ export const Projects = () => {
 
       <div className="flex flex-col border-2 border-purple-500 p-3 gap-3 text-white rounded-2xl shadow-xl">
         <div className='flex flex-col gap-3 text-center'>
-          <h1 className='text-2xl font-bold text-yellow-300'>TurfZone</h1>
+          <h1 className='text-2xl font-bold text-yellow-300'>Weather App</h1>
           <p>
             This responsive weather application, built with React and Tailwind CSS, displays real-time data using the OpenWeather API. It features a clean single-page layout where users can search any city to view temperature, humidity, wind speed, and conditions. The UI is fully frontend-based and adapts smoothly across mobile, tablet, and desktop screens.
           </p>
