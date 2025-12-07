@@ -45,6 +45,19 @@ export const Projects = () => {
           <a href="https://turf-zone-zennit.vercel.app/" target="_blank" className='border-2 border-white p-2 rounded-4xl'>Live Link</a>
         </div>
       </div>
+
+      <div className="flex flex-col border-2 border-purple-500 p-3 gap-3 text-white rounded-2xl shadow-xl">
+        <div className='flex flex-col gap-3 text-center'>
+          <h1 className='text-2xl font-bold text-yellow-300'>TurfZone</h1>
+          <p>
+            This responsive weather application, built with React and Tailwind CSS, displays real-time data using the OpenWeather API. It features a clean single-page layout where users can search any city to view temperature, humidity, wind speed, and conditions. The UI is fully frontend-based and adapts smoothly across mobile, tablet, and desktop screens.
+          </p>
+        </div>
+        <div className="flex justify-between items-center p-2">
+          <a href="https://github.com/vedant-chautiwar/Weather-App" target="_blank" className='border-2 border-white p-2 rounded-4xl'>Github</a>
+          <a href="https://weather-app-ruby-two-89.vercel.app/" target="_blank" className='border-2 border-white p-2 rounded-4xl'>Live Link</a>
+        </div>
+      </div>
     </div>
     </>
   )
