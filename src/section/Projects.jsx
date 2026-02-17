@@ -58,6 +58,19 @@ export const Projects = () => {
           <a href="https://weather-app-ruby-two-89.vercel.app/" target="_blank" className='border-2 border-white p-2 rounded-4xl'>Live Link</a>
         </div>
       </div>
+
+      <div className="flex flex-col border-2 border-purple-500 p-3 gap-3 text-white rounded-2xl shadow-xl">
+        <div className='flex flex-col gap-3 text-center'>
+          <h1 className='text-2xl font-bold text-yellow-300'>Poetree</h1>
+          <p>
+            This responsive social media application, Poetree, built with the MERN stack and Tailwind CSS, enables users to securely sign up, log in, create and share poems, discover other writers, and follow profiles. It delivers a smooth single-page experience with real-time data and a adaptive interface across mobile, tablet, and desktop screens.
+          </p>
+        </div>
+        <div className="flex justify-between items-center p-2">
+          <a href="https://github.com/vedant-chautiwar/poetree" target="_blank" className='border-2 border-white p-2 rounded-4xl'>Github</a>
+          <a href="https://poetree-1.onrender.com" target="_blank" className='border-2 border-white p-2 rounded-4xl'>Live Link</a>
+        </div>
+      </div>
     </div>
     </>
   )
